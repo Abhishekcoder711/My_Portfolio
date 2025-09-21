@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  /* position: relative; */
+  background: transparent;
+  z-index: 1000;
+}
+
+/* Toggle (hamburger) icon hidden by default */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Normal nav links */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: rgb(85, 185, 224);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 4px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: #00bcd4;
+  color: #000;
+}
+
+/* 🔽 Responsive breakpoint */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    /* show menu button */
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    flex-direction: column;
+    background-color: #030c10;
+    padding: 15px;
+    border-radius: 3px;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+}
+
+.logo-text {
+  font-family: 'Montserrat', sans-serif;
+  /* 👈 Stylish font */
+  font-size: 28px;
+  color: #00bcd4;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

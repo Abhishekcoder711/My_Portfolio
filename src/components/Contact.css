@@ -1,0 +1,43 @@
+.contact {
+  color: #00bcd4;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-icons a {
+  color: white;
+  font-size: 32px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.contact-icons a:hover {
+  color: #00bcd4;
+  transform: scale(1.2);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  color: #00bcd4;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-weight: 500;
+}
+

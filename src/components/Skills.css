@@ -1,0 +1,99 @@
+.skills {
+  /* text-align: center; */
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  /* background-color: #2a2a3a; */
+  border: 2px solid #5a5a7a;
+  width: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.491);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* Color codes */
+.html {
+  color: #e44d26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.react {
+  color: #61dbfb;
+}
+
+.node {
+  color: #68a063;
+}
+
+.python {
+  color: #4B8BBE;
+}
+
+.postman {
+  color: #FF6C37;
+}
+
+.tableau {
+  color: #E97627;
+}
+
+/* orange-ish */
+.github {
+  color: #ffffff;
+}
+
+.cpp {
+  color: #00599C;
+}
+
+.mysql {
+  color: #00758f;
+}
+
+.netlify { 
+  color: #00C7B7; 
+}
+
+.skills-icons p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #eee;
+}

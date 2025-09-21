@@ -1,0 +1,56 @@
+.header {
+  padding: 80px 20px;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2px;
+  background: linear-gradient(to right, #4744a7, #cac3d8);
+  background-clip: text;               
+  -webkit-background-clip: text;        
+  -webkit-text-fill-color: transparent;
+}
+
+.typewriter-text {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #00bcd4;
+  min-height: 28px;
+}
+
+.intro-text {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff; /* or any color depending on theme */
+}
+
+
+.greeting-text {
+  font-size: 18px;
+  margin-top: 2px;
+  /* margin-right: 270px; */
+  background: linear-gradient(to right, #ffffff, #0166e1);
+  background-clip: text;                /* ✅ standard */
+  -webkit-background-clip: text;        /* ✅ for Safari/Chrome */
+  -webkit-text-fill-color: transparent;
+
+}
+
+.subheading {
+  font-size: 30px;
+  margin-top: 50px;
+  /* color: #00c6ff; */
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background-clip: text;                /* ✅ standard */
+  -webkit-background-clip: text;        /* ✅ for Safari/Chrome */
+  -webkit-text-fill-color: transparent;
+}
