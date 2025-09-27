@@ -21,8 +21,8 @@ const projectsData = [
     emissions and temperature rise. Integrated live weather API to provide real-time temperature data for any global city.`,
     image: ClimaViewImage, // Replace with your image URL
     techStack: ["Python", "Dash", "Pandas", "Plotly", "APIs"],
-    liveUrl: "#",
-    codeUrl: "#",
+    liveUrl: null, // Set to null string to remove the button
+    codeUrl: "https://github.com/Abhishekcoder711/ClimaView",
   },
   {
     title: "Employee Management System",
@@ -30,7 +30,7 @@ const projectsData = [
     database integration. Designed a responsive dashboard interface for admin operations with real-time updates.`,
     image: EmolyeeSystemImage, // Replace with your image URL
     techStack: ["Node.js", "Express", "MySQL"],
-    liveUrl: "#",
+    liveUrl: null, // Set to null string to remove the button
     codeUrl: "https://github.com/Abhishekcoder711/Employee-Management-System",
   },
   {
