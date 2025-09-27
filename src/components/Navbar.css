@@ -7,6 +7,9 @@
   /* position: relative; */
   background: transparent;
   z-index: 1000;
+  position: fixed;
+  top: 20Px;
+  width: 97%;
 }
 
 /* Toggle (hamburger) icon hidden by default */
@@ -15,12 +18,14 @@
   font-size: 24px;
   color: white;
   cursor: pointer;
+  margin-top: -15px;
 }
 
 /* Normal nav links */
 .navbar-links {
   display: flex;
   gap: 30px;
+  position: static;
 }
 
 .navbar-links a {
@@ -69,7 +74,7 @@
 .logo-text {
   font-family: 'Montserrat', sans-serif;
   /* 👈 Stylish font */
-  font-size: 28px;
+  font-size: 22px;
   color: #00bcd4;
   font-weight: bold;
   letter-spacing: 1px;

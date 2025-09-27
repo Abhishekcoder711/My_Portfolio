@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <span className="logo-text">AKM.</span>
+        <span className="logo-text">Abhishek Mishra.</span>
       </div>
       <div className="menu-toggle" onClick={toggleMenu}>
         <FaBars />
@@ -21,10 +21,12 @@ function Navbar() {
       <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
         <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
         <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
-        <a href="#skills" onClick={() => setMenuOpen(false)}>My Skills</a> 
+        <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a> 
+        <a href="#My Journey" onClick={() => setMenuOpen(false)}>Journey</a>
         <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+        <a href="#certificates" onClick={() => setMenuOpen(false)}>Certificates</a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="/Abhishek_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
       </div>
     </nav>
   );

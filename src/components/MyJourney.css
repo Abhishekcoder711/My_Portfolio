@@ -6,7 +6,7 @@
 
 .journey-heading {
   font-size: 2rem;
-  color: #00bcd4; /* Teal color for heading */
+  color: #ffffff; /* Teal color for heading */
   margin-bottom: 60px;
   display: inline-block; /* Change from flex to inline-block to wrap content */
   position: relative; /* Add position relative to the heading */

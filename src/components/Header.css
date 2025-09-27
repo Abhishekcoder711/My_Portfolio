@@ -1,15 +1,19 @@
 .header {
-  padding: 80px 20px;
+  /* padding: 80px 20px; */
   color: white;
   padding: 60px 20px;
   text-align: center;
+  position: relative;
+  margin-top: 25px;
+  /* border-radius: 10px;   */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+  background: linear-gradient(135deg, #0f1f26, #261332, #071320);
 }
 
 h1 {
   font-size: 3rem;
   margin-bottom: 2px;
-  background: linear-gradient(to right, #4744a7, #cac3d8);
+  background: linear-gradient(to right, #191576, #cac3d8);
   background-clip: text;               
   -webkit-background-clip: text;        
   -webkit-text-fill-color: transparent;

@@ -1,12 +1,13 @@
 .skills {
   /* text-align: center; */
-  padding: 60px 20px;
+  padding: 80px 20px;
   color: #fff;
+  /* margin-top: 50px; */
 }
 
 .skills h2 {
   font-size: 2rem;
-  color: #00bcd4;
+  color: #ffffff;
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -15,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 30px;
+  gap: 30px
 }
 
 .skill-box {
@@ -90,6 +91,18 @@
 
 .netlify { 
   color: #00C7B7; 
+}
+
+.mongodb {
+  color: #47A248;
+}
+
+.render {
+  color: #ffffff;
+}
+
+.express {
+  color: #ffffff;
 }
 
 .skills-icons p {

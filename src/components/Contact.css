@@ -1,9 +1,16 @@
+
 .contact {
-  color: #00bcd4;
+  color: white;
+  padding: 60px 20px;
   text-align: center;
+  position: relative;
+  margin-top: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.66);
+  background: linear-gradient(135deg, #0f1f26, #261332, #071320);
 }
 
 .contact-icons {
+  /* Set the icons display/color */
   display: flex;
   justify-content: center;
   gap: 25px;
@@ -12,7 +19,8 @@
 }
 
 .contact-icons a {
-  color: white;
+  /* Icons are white to show up on the gray background */
+  color: white; 
   font-size: 32px;
   transition: color 0.3s, transform 0.3s;
 }
@@ -40,4 +48,3 @@
   color: #00bcd4;
   font-weight: 500;
 }
-

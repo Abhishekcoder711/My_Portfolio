@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGithub } from "react-icons/fa";
-import { SiCplusplus, SiMysql, SiPostman, SiTableau, SiNetlify } from "react-icons/si";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGithub, FaGit } from "react-icons/fa";
+import { SiCplusplus, SiMysql, SiPostman, SiTableau, SiNetlify, SiMongodb, SiRender } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import "./Skills.css";
 
 function Skills() {
@@ -13,11 +14,15 @@ function Skills() {
     { icon: <FaJsSquare className="skill-icon js" />, name: "JavaScript" },
     { icon: <FaReact className="skill-icon react" />, name: "React" },
     { icon: <FaNodeJs className="skill-icon node" />, name: "Node.js" },
+    { icon: <SiExpress className="skill-icon express" />, name: "Express.js" },
     { icon: <SiMysql className="skill-icon mysql" />, name: "MySQL" },
     { icon: <FaGithub className="skill-icon github" />, name: "GitHub" },
     { icon: <SiPostman className="skill-icon postman" />, name: "Postman" },
     { icon: <SiTableau className="skill-icon tableau" />, name: "Tableau" },
     { icon: <SiNetlify className="skill-icon netlify" />, name: "Netlify" }, 
+    { icon: <SiMongodb className="skill-icon mongodb" />, name: "MongoDb" },
+    { icon: <SiRender className="skill-icon render" />, name: "Render" },
+    { icon: <FaGit className="skill-icon git" />, name: "Git" },
   ];
 
   return (
