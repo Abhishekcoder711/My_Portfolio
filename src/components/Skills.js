@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGithub, FaGit, FaFileExcel, FaCloud } from "react-icons/fa";
-import { SiCplusplus, SiMysql, SiPostman, SiTableau, SiNetlify, SiMongodb, SiRender } from "react-icons/si";
+import { FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaGithub, FaGit, FaFileExcel, FaCloud } from "react-icons/fa";
+import { SiMysql, SiPostman, SiTableau, SiMongodb,} from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaChartBar } from "react-icons/fa";
 import "./Skills.css";
