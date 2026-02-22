@@ -19,16 +19,16 @@ function About() {
           viewport={{ once: false, amount: 0.3 }}
         >
           <p>
-            I'm Abhishek Kumar Mishra, and I'm from Darbhanga, Bihar. I have completed my schooling and Bachelor's from Darbhanga, Bihar.
+            I'm Abhishek Kumar Mishra from Darbhanga, Bihar. I completed my Schooling and Bachelor's degree in Bihar, where I built a strong analytical mindset and a deep interest in working with data and problem-solving.
           </p>
           <p>
-            Currently I'm pursuing my Master's degree in Computer Applications (MCA) at Chandigarh University, where I blended academic rigor with hands-on development projects. My experience spans across frontend and backend development, <strong>API integrations</strong>, and data visualization.
+            Currently, I am pursuing my Master’s degree in Computer Applications (MCA) at Chandigarh University, focusing on Data Analytics, data-driven technologies, and real-world analytical projects. My academic journey combines statistical understanding with practical exposure to structured data analysis and business insights.
           </p>
           <p>
-            I'm a self-driven software developer and technology enthusiast who loves crafting clean, user-friendly web applications. With a strong foundation in <strong>C++</strong>, <strong>Python</strong>, <strong>React</strong>, and <strong>Node.js</strong>, I bring ideas to life through code that not only works but works beautifully.
+            As a Data Analyst, I specialize in data cleaning, transformation, and visualization using <strong>Python</strong>, <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Matplotlib</strong>, <strong>Plotly</strong>, <strong>Dash</strong>, and <strong>PySpark</strong>. I work with databases like <strong>MySQL</strong> and <strong>MongoDB</strong>, and utilize <strong>Excel</strong>, <strong>Tableau</strong>, and <strong>Power BI</strong> to create interactive dashboards and analytical reports.
           </p>
           <p>
-            I'm also a curious and self-motivated data analyst with a passion for turning numbers into narratives. Skilled in <strong>Python</strong>, <strong>SQL</strong>, and <strong>Data visualization</strong>, I create dashboards and reports that not only reveal patterns but also inspire smarter business decisions.
+            I also have hands-on experience working with <strong>REST APIs</strong> for data extraction and integration, and exposure to cloud and big data platforms such as <strong>Microsoft Azure</strong> and <strong>Databricks</strong>. With knowledge of <strong>HTML/CSS</strong>, I ensure that data presentations and dashboards are structured, clear, and user-focused. My goal is to transform raw data into actionable insights that support smarter and more strategic decision-making.
           </p>
         </motion.div>
 

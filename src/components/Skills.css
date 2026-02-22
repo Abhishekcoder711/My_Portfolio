@@ -52,13 +52,13 @@
   color: #264de4;
 }
 
-.js {
+/* .js {
   color: #f0db4f;
-}
+} */
 
-.react {
+/* .react {
   color: #61dbfb;
-}
+} */
 
 .node {
   color: #68a063;
@@ -76,30 +76,42 @@
   color: #E97627;
 }
 
+.powerbi {
+  color: #F2C811;
+}
+
+.excel {
+  color: #217346;
+}
+
 /* orange-ish */
 .github {
   color: #ffffff;
 }
 
-.cpp {
+/* .cpp {
   color: #00599C;
-}
+} */
 
 .mysql {
   color: #00758f;
 }
 
-.netlify { 
+/* .netlify { 
   color: #00C7B7; 
-}
+} */
 
 .mongodb {
   color: #47A248;
 }
 
-.render {
-  color: #ffffff;
+.azure {
+  color: #0078D4;
 }
+
+/* .render {
+  color: #ffffff;
+} */
 
 .express {
   color: #ffffff;

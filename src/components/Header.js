@@ -11,7 +11,7 @@ function Header() {
       <div className="typewriter-text">
         <Typewriter
           options={{
-            strings: ['Software Developer', 'Data Analyst', 'Full Stack Developer', 'Data Engineer'],
+            strings: ['Data Analyst', 'Business Analyst', 'BI Developer', 'Data Visualization Analyst'],
             autoStart: true,
             loop: true,
             delay: 70,
@@ -21,7 +21,7 @@ function Header() {
         />
       </div>
       <p className="intro-text">
-        An MCA student driven by curiosity and creativity, I bridge the worlds of software development and data analysis. I craft digital experiences that are both engaging and purposeful, turning concepts into impactful solutions while uncovering insights that shape decisions and inspire meaningful change.
+        Aspiring Data Analytics professional driven by curiosity to uncover insights hidden within data and transform them into meaningful, decision-driven outcomes.
       </p>
       {/* <p className="intro-text">
         Passionate MCA student of Chandigarh University with various skill sets like C++, Python, Node.js, React. I have applied these skills on my acedmic journey and completed some projects that I have mentioning below. I'm able to eager to apply knowledge in Development.

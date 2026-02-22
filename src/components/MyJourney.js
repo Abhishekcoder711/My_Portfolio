@@ -13,9 +13,9 @@ const MyJourney = () => {
       date: 'Aug 2024 - June 2026',
       title: 'Master of Computer Applications',
       institution: 'Chandigarh University, Punjab',
-      description: `Gained a strong foundation in data structures, algorithms, and Software Development. 
-      I am proficient in using tools like Python and SQL to clean, analyze, and visualize complex datasets. 
-      My expertise lies in applying machine learning models to extract actionable insights and drive business solutions.`
+      description: `Developed a strong foundation in data analytics, statistics, and database management. 
+      Gained hands-on experience in data cleaning, transformation, and visualization using analytical tools and technologies. 
+      Focused on extracting meaningful insights from structured and unstructured data to support data-driven decision-making and business problem-solving.`
     },
     {
       type: 'education',
