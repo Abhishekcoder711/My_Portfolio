@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaGithub, FaGit } from "react-icons/fa";
 import { SiCplusplus, SiMysql, SiPostman, SiTableau, SiMicrosoftexcel, SiNetlify, SiMongodb, SiMicrosoftazure, SiRender } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { SiPowerbi } from "react-icons/si";
+import { TbBrandPowerbi } from "react-icons/tb";
 import "./Skills.css";
 
 function Skills() {
   const skills = [
     { icon: <FaPython className="skill-icon python" />, name: "Python" },
     { icon: <SiTableau className="skill-icon tableau" />, name: "Tableau" },
-    { icon: <SiPowerbi className="skill-icon powerbi" />, name: "Power BI" },
+    { icon: <TbBrandPowerbi className="skill-icon powerbi" />, name: "Power BI" },
     { icon: <SiMysql className="skill-icon mysql" />, name: "MySQL" },
     { icon: <SiMicrosoftexcel className="skill-icon excel" />, name: "Excel" },
     // { icon: <SiCplusplus className="skill-icon cpp" />, name: "C++" },
