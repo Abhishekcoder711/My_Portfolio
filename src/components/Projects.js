@@ -7,13 +7,13 @@ import EmolyeeSystemImage from "../assets/Employee.png";
 
 const projectsData = [
   {
-    title: "QuickChat",
-    description: `Quick Chat is a private real-time chat application designed for secure one-to-one conversations. 
-    The app supports instant messaging, emoji reactions, and smooth real-time updates, making conversations fast.`,
+    title: "Netflix_Content_Analysis",
+    description: `Analyzed Netflix dataset using Python and built a Power BI dashboard with DAX to uncover content trends, ratings distribution, and regional insights. 
+    The dashboard provides interactive visualizations to explore content performance and user preferences across different regions.`,
     image: quickChatImage, 
-    techStack: ["Socket.io", "Express.js", "Node.js", "MongoDB", "HTML", "CSS"],
-    liveUrl: "https://quickchat-t1wq.onrender.com",
-    codeUrl: "https://github.com/Abhishekcoder711/QuickChat",
+    techStack: ["Python", "Pandas", "Power BI, DAX"],
+    liveUrl: null, // Set to null string to remove the button
+    codeUrl: "https://github.com/Abhishekcoder711/Netflix_Content_Analysis",
   },
   {
     title: "ClimaView",
@@ -21,17 +21,18 @@ const projectsData = [
     emissions and temperature rise. Integrated live weather API to provide real-time temperature data for any global city.`,
     image: ClimaViewImage, // Replace with your image URL
     techStack: ["Python", "Dash", "Pandas", "Plotly", "APIs"],
-    liveUrl: null, // Set to null string to remove the button
+    liveUrl: "https://clima-view-sigma.vercel.app", 
     codeUrl: "https://github.com/Abhishekcoder711/ClimaView",
   },
   {
-    title: "Employee Management System",
-    description: `Built a secure, role-based Employee Management platform supporting CRUD operations with MySQL 
-    database integration. Designed a responsive dashboard interface for admin operations with real-time updates.`,
+    title: "Product Sales Data Analysis",
+    description: `Developed an interactive Power BI dashboard to analyze sales performance, profit trends, and regional distribution. 
+    Created KPI metrics such as Total Sales, Profit, COGS, and Profit Margin to generate business insights, and built visualizations including line charts, bar charts, treemaps, and maps. 
+    Performed data cleaning and transformation using Power Query and implemented DAX measures to ensure accurate and meaningful analysis.`,
     image: EmolyeeSystemImage, // Replace with your image URL
-    techStack: ["Node.js", "Express", "MySQL"],
+    techStack: ["Power BI", "DAX", "Power Query"],
     liveUrl: null, // Set to null string to remove the button
-    codeUrl: "https://github.com/Abhishekcoder711/Employee-Management-System",
+    codeUrl: "https://github.com/Abhishekcoder711/Product-Sales-Data-Analysis-Dashboard",
   },
   {
     title: "Online Voting System",
