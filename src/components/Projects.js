@@ -3,14 +3,16 @@ import "./Projects.css";
 import quickChatImage from "../assets/QuickChat.png";
 import ClimaViewImage from "../assets/ClimaView.png"; 
 import VotingSystemImage from "../assets/VotingSystem.png";
-import EmolyeeSystemImage from "../assets/Employee.png";
+import NetflixImage from "../assets/NetflixDashboard.png";
+import ProductImage from "../assets/ProductDashboard.png";
+
 
 const projectsData = [
   {
     title: "Netflix Content Analysis",
     description: `Analyzed Netflix dataset using Python and built a Power BI dashboard with DAX to uncover content trends, ratings distribution, and regional insights. 
     The dashboard provides interactive visualizations to explore content performance and user preferences across different regions.`,
-    image: NetflixDatasetImage, // Replace with your image URL
+    image: NetflixImage, // Replace with your image URL
     techStack: ["Python", "Pandas", "Power BI, DAX"],
     liveUrl: null, // Set to null string to remove the button
     codeUrl: "https://github.com/Abhishekcoder711/Netflix_Content_Analysis",
@@ -29,7 +31,7 @@ const projectsData = [
     description: `Developed an interactive Power BI dashboard to analyze sales performance, profit trends, and regional distribution. 
     Created KPI metrics such as Total Sales, Profit, COGS, and Profit Margin to generate business insights, and built visualizations including line charts, bar charts, treemaps, and maps. 
     Performed data cleaning and transformation using Power Query and implemented DAX measures to ensure accurate and meaningful analysis.`,
-    image: ProductDashboardImage, // Replace with your image URL
+    image: ProductImage, // Replace with your image URL
     techStack: ["Power BI", "DAX", "Power Query"],
     liveUrl: null, // Set to null string to remove the button
     codeUrl: "https://github.com/Abhishekcoder711/Product-Sales-Data-Analysis-Dashboard",
@@ -43,6 +45,15 @@ const projectsData = [
     techStack: ["Python"],
     liveUrl: null, // Set to null string to remove the button
     codeUrl: "https://github.com/Abhishekcoder711/Online-Voting-System",
+  },
+    {
+    title: "QuickChat",
+    description: `A real-time chat application built with Node.js and Express.js. It allows users to create accounts, log in, and engage in instant messaging with other users. 
+    The application features a user-friendly interface and supports multiple chat rooms for group conversations.`,
+    image: quickChatImage, // Replace with your image URL
+    techStack: ["Socket.io", "Node.js", "Express.js", "MongoDB"],
+    liveUrl: "https://quickchat-t1wq.onrender.com", // Set to null string to remove the button
+    codeUrl: "https://github.com/Abhishekcoder711/QuickChat",
   },
 ];
 
