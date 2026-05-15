@@ -52,7 +52,7 @@ h2 {
 
 .about-image {
   width: 240px;
-  height: 240px;
+  height: 300px;
   object-fit: cover;
   border-radius: 25%;
   border: 4px solid #00bcd4;
