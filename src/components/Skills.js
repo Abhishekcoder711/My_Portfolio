@@ -1,30 +1,30 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaGithub, FaGit, FaFileExcel, FaCloud } from "react-icons/fa";
-import { SiMysql, SiPostman, SiTableau, SiMongodb,} from "react-icons/si";
+import { SiMysql, SiPostman, SiTableau} from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaChartBar } from "react-icons/fa";
 import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { icon: <FaPython className="skill-icon python" />, name: "Python" },
-    { icon: <SiTableau className="skill-icon tableau" />, name: "Tableau" },
-    { icon: <FaChartBar className="skill-icon powerbi" />, name: "Power BI" },
-    { icon: <SiMysql className="skill-icon mysql" />, name: "MySQL" },
     { icon: <FaFileExcel className="skill-icon excel" />, name: "Excel" },
-    // { icon: <SiCplusplus className="skill-icon cpp" />, name: "C++" },
-    { icon: <FaHtml5 className="skill-icon html" />, name: "HTML" },
-    { icon: <FaCss3Alt className="skill-icon css" />, name: "CSS" },
-    { icon: <FaCloud className="skill-icon azure" />, name: "Microsoft Azure" },
+    { icon: <SiMysql className="skill-icon mysql" />, name: "MySQL" },
+    { icon: <FaChartBar className="skill-icon powerbi" />, name: "Power BI" },
+    { icon: <SiTableau className="skill-icon tableau" />, name: "Tableau" },
+    { icon: <FaPython className="skill-icon python" />, name: "Python" },
     { icon: <SiMongodb className="skill-icon mongodb" />, name: "MongoDb" },
-   // { icon: <FaJsSquare className="skill-icon js" />, name: "JavaScript" },
-   // { icon: <FaReact className="skill-icon react" />, name: "React" },
-   { icon: <FaNodeJs className="skill-icon node" />, name: "Node.js" },
-   { icon: <SiExpress className="skill-icon express" />, name: "Express.js" },
     { icon: <FaGithub className="skill-icon github" />, name: "GitHub" },
     { icon: <FaGit className="skill-icon git" />, name: "Git" },
     { icon: <SiPostman className="skill-icon postman" />, name: "Postman" },
+    // { icon: <SiCplusplus className="skill-icon cpp" />, name: "C++" },
+    // { icon: <FaHtml5 className="skill-icon html" />, name: "HTML" },
+    // { icon: <FaCss3Alt className="skill-icon css" />, name: "CSS" },
+    // { icon: <FaCloud className="skill-icon azure" />, name: "Microsoft Azure" },
+   // { icon: <FaJsSquare className="skill-icon js" />, name: "JavaScript" },
+   // { icon: <FaReact className="skill-icon react" />, name: "React" },
+  //  { icon: <FaNodeJs className="skill-icon node" />, name: "Node.js" },
+  //  { icon: <SiExpress className="skill-icon express" />, name: "Express.js" },
    // { icon: <SiNetlify className="skill-icon netlify" />, name: "Netlify" }, 
    // { icon: <SiRender className="skill-icon render" />, name: "Render" },
   ];

@@ -19,16 +19,27 @@ function About() {
           viewport={{ once: false, amount: 0.3 }}
         >
           <p>
-            I'm Abhishek Kumar Mishra from Darbhanga, Bihar. I completed my Schooling and Bachelor's degree in Bihar, where I built a strong analytical mindset and a deep interest in working with data and problem-solving.
+            I am a <strong>Data Analyst</strong> based in India, passionate about transforming raw data into meaningful insights that support data-driven business decisions. With a strong foundation in mathematics and computer applications, I enjoy solving analytical problems, identifying patterns, and presenting insights through clear and interactive visualizations.
           </p>
+
           <p>
-            Currently, I am pursuing my Master’s degree in Computer Applications (MCA) at Chandigarh University, focusing on Data Analytics, data-driven technologies, and real-world analytical projects. My academic journey combines statistical understanding with practical exposure to structured data analysis and business insights.
+            I have completed my <strong>Master of Computer Applications (MCA)</strong> from Chandigarh University, with a focus on Data Analytics, data-driven technologies, and practical analytical projects. My academic background also includes a Bachelor's degree in Mathematics, which has strengthened my analytical and problem-solving approach.
           </p>
+
           <p>
-            As a Data Analyst, I specialize in data cleaning, transformation, and visualization using <strong>Python</strong>, <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Matplotlib</strong>, <strong>Plotly</strong>, <strong>Dash</strong>, and <strong>PySpark</strong>. I work with databases like <strong>MySQL</strong> and <strong>MongoDB</strong>, and utilize <strong>Excel</strong>, <strong>Tableau</strong>, and <strong>Power BI</strong> to create interactive dashboards and analytical reports.
+            My core expertise lies in <strong>Excel, SQL, and Power BI</strong>. I work with <strong>Advanced Excel</strong>, including Pivot Tables, advanced formulas, XLOOKUP, VBA, Macros, and Power Query for data cleaning, transformation, and analysis. In <strong>Power BI</strong>, I have hands-on experience with DAX, data modeling, table relationships, calculated columns and measures, KPI development, interactive dashboards, and data visualization.
           </p>
+
           <p>
-            I also have hands-on experience working with <strong>REST APIs</strong> for data extraction and integration, and exposure to cloud and big data platforms such as <strong>Microsoft Azure</strong> and <strong>Databricks</strong>. With knowledge of <strong>HTML/CSS</strong>, I ensure that data presentations and dashboards are structured, clear, and user-focused. My goal is to transform raw data into actionable insights that support smarter and more strategic decision-making.
+            I also work with <strong>SQL</strong> for data extraction and analysis, including complex <strong>JOINs, subqueries, CTEs, window functions, aggregations, CASE statements, and analytical queries</strong> to derive business insights from structured data.
+          </p>
+
+          <p>
+            Along with these core analytics tools, I have hands-on experience with <strong>Python</strong> for <strong>data cleaning, data analysis, and visualization</strong>, using libraries such as <strong>Pandas, NumPy, Matplotlib, and Plotly</strong>. I have applied Python in analytical projects and am continuously strengthening my Python skills to develop deeper expertise in data analysis and automation. I also have familiarity with <strong>Tableau</strong> for creating interactive visualizations and presenting data-driven insights effectively.
+          </p>
+
+          <p>
+            My goal is to continuously develop as a <strong>Data Analyst</strong> and use data, analytical thinking, and visualization to turn complex datasets into clear, actionable business insights.
           </p>
         </motion.div>
 
