@@ -31,11 +31,11 @@ function About() {
           </p>
 
           <p>
-            I also work with <strong>SQL</strong> for data extraction and analysis, including complex <strong>JOINs, subqueries, CTEs, window functions, aggregations, CASE statements, and analytical queries</strong> to derive business insights from structured data.
+            I also work with <strong>SQL</strong> for data extraction and analysis, including complex JOINs, subqueries, CTEs, window functions, aggregations, CASE statements, and analytical queries to derive business insights from structured data.
           </p>
 
           <p>
-            Along with these core analytics tools, I have hands-on experience with <strong>Python</strong> for <strong>data cleaning, data analysis, and visualization</strong>, using libraries such as <strong>Pandas, NumPy, Matplotlib, and Plotly</strong>. I have applied Python in analytical projects and am continuously strengthening my Python skills to develop deeper expertise in data analysis and automation. I also have familiarity with <strong>Tableau</strong> for creating interactive visualizations and presenting data-driven insights effectively.
+            Along with these core analytics tools, I have hands-on experience with <strong>Python</strong> for data cleaning, data analysis, and visualization, using libraries such as Pandas, NumPy, Matplotlib, and Plotly. I have applied Python in analytical projects and am continuously strengthening my Python skills to develop deeper expertise in data analysis and automation. I also have familiarity with <strong>Tableau</strong> for creating interactive visualizations and presenting data-driven insights effectively.
           </p>
 
           <p>
