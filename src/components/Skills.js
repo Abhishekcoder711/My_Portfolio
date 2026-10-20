@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaPython, FaGithub, FaGit, FaFileExcel} from "react-icons/fa";
-import { SiMysql, SiPostman, SiTableau, SiMongodb} from "react-icons/si";
+import { SiMysql, SiPostman, SiTableau, SiMongodb, SiGooglesheets } from "react-icons/si";
 import { FaChartBar } from "react-icons/fa";
 import "./Skills.css";
 
@@ -15,6 +15,7 @@ function Skills() {
     { icon: <FaGithub className="skill-icon github" />, name: "GitHub" },
     { icon: <FaGit className="skill-icon git" />, name: "Git" },
     { icon: <SiPostman className="skill-icon postman" />, name: "Postman" },
+    { icon: <SiGooglesheets className="skill-icon google-sheets" />, name: "Google Sheets" },
     // { icon: <SiCplusplus className="skill-icon cpp" />, name: "C++" },
     // { icon: <FaHtml5 className="skill-icon html" />, name: "HTML" },
     // { icon: <FaCss3Alt className="skill-icon css" />, name: "CSS" },

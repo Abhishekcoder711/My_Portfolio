@@ -1,7 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import quickChatImage from "../assets/QuickChat.png";
-import ClimaViewImage from "../assets/ClimaView.png"; 
 import VotingSystemImage from "../assets/VotingSystem.png";
 import NetflixImage from "../assets/NetflixDashboard.png";
 import ProductImage from "../assets/ProductDashboard.png";
@@ -18,13 +16,15 @@ const projectsData = [
     codeUrl: "https://github.com/Abhishekcoder711/Netflix_Content_Analysis",
   },
   {
-    title: "ClimaView",
-    description: `Designed an interactive dashboard to visualize climate trends over time, helping users analyze CO₂ 
-    emissions and temperature rise. Integrated live weather API to provide real-time temperature data for any global city.`,
-    image: ClimaViewImage, // Replace with your image URL
-    techStack: ["Python", "Dash", "Pandas", "Plotly", "APIs"],
-    liveUrl: "https://clima-view-sigma.vercel.app", 
-    codeUrl: "https://github.com/Abhishekcoder711/ClimaView",
+    title: "E-commerce Sales & Customer Analysis",
+    description: `Analyzed e-commerce data using MySQL to perform data quality checks, identify missing values and duplicate Order IDs, 
+    and join Orders and Details tables. Wrote SQL queries using JOINs, GROUP BY, aggregate functions, and date functions to analyze 
+    total sales, profit, quantity, category-wise performance, customer-wise sales, payment modes, state-wise sales, and monthly trends. 
+    Built an interactive Power BI dashboard featuring KPIs, quarterly filters, and sales and profit visualizations.`,
+    video: "/videos/sql-demo.mp4", 
+    techStack: ["MySQL", "SQL", "Power BI", "DAX"],
+    //liveUrl: "", 
+    codeUrl: "https://github.com/Abhishekcoder711/E-Commerce-Sales-Customer-Analysis",
   },
   {
     title: "Product Sales Analysis",
@@ -46,15 +46,6 @@ const projectsData = [
     liveUrl: null, // Set to null string to remove the button
     codeUrl: "https://github.com/Abhishekcoder711/Online-Voting-System",
   },
-    {
-    title: "QuickChat",
-    description: `A real-time chat application built with Node.js and Express.js. It allows users to create accounts, log in, and engage in instant messaging with other users. 
-    The application features a user-friendly interface and supports multiple chat rooms for group conversations.`,
-    image: quickChatImage, // Replace with your image URL
-    techStack: ["Socket.io", "Node.js", "Express.js", "MongoDB"],
-    liveUrl: "https://quickchat-t1wq.onrender.com", // Set to null string to remove the button
-    codeUrl: "https://github.com/Abhishekcoder711/QuickChat",
-  },
 ];
 
 const Projects = () => {
@@ -65,7 +56,24 @@ const Projects = () => {
         {projectsData.map((project, index) => (
           <div className="project-card" key={index}>
             <div className="project-image-container">
-              <img src={project.image} alt={`${project.title} screenshot`} className="project-image" />
+              {project.video ? (
+                <video
+                  src={project.video}
+                  className="project-image"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  controls
+                  preload="metadata"
+                />
+              ) : (
+                <img
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  className="project-image"
+                />
+              )}
             </div>
             <div className="project-content">
               <h3 className="project-title">{project.title}</h3>
