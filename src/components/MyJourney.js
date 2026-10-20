@@ -10,7 +10,7 @@ const MyJourney = () => {
     {
       type: 'education',
       icon: <FaGraduationCap />,
-      date: 'Aug 2024 - June 2026',
+      date: 'July 2024 - July 2026',
       title: 'Master of Computer Applications',
       institution: 'Chandigarh University, Punjab',
       description: `Developed a strong foundation in data analytics, statistics, and database management. 
@@ -20,7 +20,7 @@ const MyJourney = () => {
     {
       type: 'education',
       icon: <FaGraduationCap />,
-      date: 'June 2020 - Sep 2023',
+      date: 'July 2020 - July 2023',
       title: 'Bachelors of Science Honours in Mathematics',
       institution: 'Lalit Narayan Mithila University, Darbhanga, Bihar',
       description: `During my Bachelors, I gained expertise in quantitative analysis, and data interpretation. 
@@ -40,7 +40,7 @@ const MyJourney = () => {
     {
       type: 'education',
       icon: <FaGraduationCap />,
-      date: 'May 2017 - May 2018',
+      date: 'June 2017 - June 2018',
       title: 'High School (10th)',
       institution: 'Rose Public School, Darbhanga, Bihar',
       description: `Achieved a solid academic foundation in all subjects while cultivating 
