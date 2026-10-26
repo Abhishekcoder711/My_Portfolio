@@ -127,32 +127,22 @@
   color: #34A853;
 }
 
-
-/* Procurement Skills Icons */
-.skill-icon {
-  font-size: 2rem;
-  color: #2563eb;
-  transition: transform 0.3s ease, color 0.3s ease;
-  flex-shrink: 0;
+.shopping-cart {
+  color: #f39c12;
 }
 
-/* Hover Effect */
-.skill-card:hover .skill-icon {
-  transform: translateY(-4px) scale(1.1);
-  color: #0ea5e9;
+.handshake {
+  color: #2ecc71;
 }
 
-/* Optional: Procurement skill cards */
-.skill-card {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 16px;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.truck {
+  color: #3498db;
 }
 
-.skill-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+.file-invoice {
+  color: #9b59b6;
+}
+
+.sap {
+  color: #0fa7db;
 }

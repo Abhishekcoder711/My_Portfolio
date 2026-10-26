@@ -15,11 +15,11 @@ import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { icon: <FaShoppingCart className="skill-icon" />, name: "Procurement (P2P)" },
-    { icon: <FaHandshake className="skill-icon" />, name: "Vendor Management" },
-    { icon: <FaTruck className="skill-icon" />, name: "Supply Chain Basics" },
-    { icon: <FaFileInvoice className="skill-icon" />, name: "PO & Invoice Process" },
-    { icon: <SiSap className="skill-icon" />, name: "SAP S/4HANA (Procurement) " },
+    { icon: <FaTruck className="skill-icon truck" />, name: "Supply Chain Operations" },
+    { icon: <FaShoppingCart className="skill-icon shopping-cart" />, name: "Procurement (P2P)" },
+    { icon: <FaHandshake className="skill-icon handshake" />, name: "Vendor Management" },
+    { icon: <FaFileInvoice className="skill-icon file-invoice" />, name: "PO & Invoice Process" },
+    { icon: <SiSap className="skill-icon sap" />, name: "SAP S/4HANA (Procurement) " },
  
     // Core tools
     { icon: <FaFileExcel className="skill-icon excel" />, name: "Excel (VLOOKUP, Pivot Tables)" },
