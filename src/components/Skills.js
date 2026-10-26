@@ -10,15 +10,16 @@ import {
   FaTruck,
   FaFileInvoice,
 } from "react-icons/fa";
-import { SiMysql, SiTableau, SiGooglesheets } from "react-icons/si";
+import { SiMysql, SiTableau, SiGooglesheets, SiSap } from "react-icons/si";
 import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { icon: <FaShoppingCart className="skill-icon" />, name: "Procurement (P2P Basics)" },
+    { icon: <FaShoppingCart className="skill-icon" />, name: "Procurement (P2P)" },
     { icon: <FaHandshake className="skill-icon" />, name: "Vendor Management" },
     { icon: <FaTruck className="skill-icon" />, name: "Supply Chain Basics" },
     { icon: <FaFileInvoice className="skill-icon" />, name: "PO & Invoice Process" },
+    { icon: <SiSap className="skill-icon" />, name: "SAP S/4HANA (Procurement) " },
  
     // Core tools
     { icon: <FaFileExcel className="skill-icon excel" />, name: "Excel (VLOOKUP, Pivot Tables)" },
