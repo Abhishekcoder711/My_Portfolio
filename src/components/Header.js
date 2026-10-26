@@ -11,7 +11,7 @@ function Header() {
       <div className="typewriter-text">
         <Typewriter
           options={{
-           strings: ['Procurement Associate', 'Supply Chain Analyst', 'Data Analyst'],
+           strings: ['Supply Chain Analyst', 'Procurement Associate', 'Data Analyst'],
             autoStart: true,
             loop: true,
             delay: 70,
