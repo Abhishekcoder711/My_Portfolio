@@ -11,7 +11,7 @@ function Header() {
       <div className="typewriter-text">
         <Typewriter
           options={{
-            strings: ['Data Analyst', 'Business Analyst', 'BI Developer', 'Data Visualization Analyst'],
+           strings: ['Procurement Associate', 'Supply Chain Analyst', 'Data Analyst'],
             autoStart: true,
             loop: true,
             delay: 70,
@@ -21,7 +21,7 @@ function Header() {
         />
       </div>
       <p className="intro-text">
-        Aspiring Data Analytics professional driven by curiosity to uncover insights hidden within data and transform them into meaningful, decision-driven outcomes.
+        Aspiring Procurement and Supply Chain analyst with a strong foundation in data analytics.  
       </p>
       {/* <p className="intro-text">
         Passionate MCA student of Chandigarh University with various skill sets like C++, Python, Node.js, React. I have applied these skills on my acedmic journey and completed some projects that I have mentioning below. I'm able to eager to apply knowledge in Development.

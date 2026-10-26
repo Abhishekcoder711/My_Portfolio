@@ -19,27 +19,46 @@ function About() {
           viewport={{ once: false, amount: 0.3 }}
         >
           <p>
-            I am a <strong>Data Analyst</strong> based in India, passionate about transforming raw data into meaningful insights that support data-driven business decisions. With a strong foundation in mathematics and computer applications, I enjoy solving analytical problems, identifying patterns, and presenting insights through clear and interactive visualizations.
+            I am an <strong>MCA graduate</strong> based in India, looking to build my career in{" "}
+            <strong>Procurement, Supply Chain, and Logistics Operations</strong>. I combine strong data skills with
+            a detail-oriented, process-driven approach, which helps me keep procurement data accurate,
+            organized, and easy to act on.
           </p>
 
           <p>
-            I have completed my <strong>Master of Computer Applications (MCA)</strong> from Chandigarh University, with a focus on Data Analytics, data-driven technologies, and practical analytical projects. My academic background also includes a Bachelor's degree in Mathematics, which has strengthened my analytical and problem-solving approach.
+            I completed my <strong>Master of Computer Applications (MCA)</strong> from Chandigarh
+            University, with a focus on Data Analytics and practical analytical projects. I also hold a
+            Bachelor's degree in Mathematics, which has strengthened my analytical and problem-solving
+            skills.
           </p>
 
           <p>
-            My core expertise lies in <strong>Excel, SQL, and Power BI</strong>. I work with <strong>Advanced Excel</strong>, including Pivot Tables, advanced formulas, XLOOKUP, VBA, Macros, and Power Query for data cleaning, transformation, and analysis. In <strong>Power BI</strong>, I have hands-on experience with DAX, data modeling, table relationships, calculated columns and measures, KPI development, interactive dashboards, and data visualization.
+            I understand the <strong>Procure-to-Pay (P2P) cycle</strong>: purchase requisition, purchase
+            order, goods receipt, invoice, and payment. I am interested in{" "}
+            <strong>vendor management, PO processing, inventory and shipment tracking, and spend reporting</strong>,
+            where accuracy and timely delivery matter. I am eager to learn ERP and procurement tools such as SAP.
           </p>
 
           <p>
-            I also work with <strong>SQL</strong> for data extraction and analysis, including complex JOINs, subqueries, CTEs, window functions, aggregations, CASE statements, and analytical queries to derive business insights from structured data.
+            My core tool is <strong>Excel</strong>. I work with Pivot Tables, advanced formulas, XLOOKUP,
+            VBA, Macros, and Power Query to clean, transform, and analyze data. This is useful for
+            tracking POs, checking supplier records, monitoring inventory and deliveries, and preparing reports. In <strong>Power BI</strong>,
+            I build interactive dashboards using DAX, data modeling, and KPIs, which can be applied to
+            spend analysis, supplier performance, delivery tracking, and cost trends.
           </p>
 
           <p>
-            Along with these core analytics tools, I have hands-on experience with <strong>Python</strong> for data cleaning, data analysis, and visualization, using libraries such as Pandas, NumPy, Matplotlib, and Plotly. I have applied Python in analytical projects and am continuously strengthening my Python skills to develop deeper expertise in data analysis and automation. I also have familiarity with <strong>Tableau</strong> for creating interactive visualizations and presenting data-driven insights effectively.
+            I also use <strong>SQL</strong> for data extraction and analysis, including JOINs, subqueries,
+            CTEs, window functions, and aggregations. I work with <strong>Python</strong> (Pandas, NumPy,
+            Matplotlib, Plotly) for data cleaning and analysis, and have familiarity with{" "}
+            <strong>Tableau</strong> for visualization.
           </p>
 
           <p>
-            My goal is to continuously develop as a <strong>Data Analyst</strong> and use data, analytical thinking, and visualization to turn complex datasets into clear, actionable business insights.
+            I am quick to learn, comfortable with structured processes and deadlines, and flexible
+            with work schedules. I am currently looking for opportunities in{" "}
+            <strong>Procurement, Supply Chain, Logistics Support, and Data Analytics</strong> where I can
+            contribute with accuracy, reliable reporting, and a continuous learning mindset.
           </p>
         </motion.div>
 

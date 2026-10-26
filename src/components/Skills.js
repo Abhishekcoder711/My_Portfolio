@@ -1,21 +1,36 @@
 import { motion } from "framer-motion";
-import { FaPython, FaGithub, FaGit, FaFileExcel} from "react-icons/fa";
-import { SiMysql, SiPostman, SiTableau, SiMongodb, SiGooglesheets } from "react-icons/si";
-import { FaChartBar } from "react-icons/fa";
+import {
+  FaPython,
+  FaGithub,
+  FaGit,
+  FaFileExcel,
+  FaChartBar,
+  FaShoppingCart,
+  FaHandshake,
+  FaTruck,
+  FaFileInvoice,
+} from "react-icons/fa";
+import { SiMysql, SiTableau, SiGooglesheets } from "react-icons/si";
 import "./Skills.css";
 
 function Skills() {
   const skills = [
-    { icon: <FaFileExcel className="skill-icon excel" />, name: "Excel" },
+    { icon: <FaShoppingCart className="skill-icon" />, name: "Procurement (P2P Basics)" },
+    { icon: <FaHandshake className="skill-icon" />, name: "Vendor Management" },
+    { icon: <FaTruck className="skill-icon" />, name: "Supply Chain Basics" },
+    { icon: <FaFileInvoice className="skill-icon" />, name: "PO & Invoice Process" },
+ 
+    // Core tools
+    { icon: <FaFileExcel className="skill-icon excel" />, name: "Excel (VLOOKUP, Pivot Tables)" },
+    { icon: <SiGooglesheets className="skill-icon google-sheets" />, name: "Google Sheets" },
     { icon: <SiMysql className="skill-icon mysql" />, name: "MySQL" },
     { icon: <FaChartBar className="skill-icon powerbi" />, name: "Power BI" },
+    { icon: <FaPython className="skill-icon python" />, name: "Python (Pandas, NumPy)" },
+ 
+    // Supporting tools
     { icon: <SiTableau className="skill-icon tableau" />, name: "Tableau" },
-    { icon: <FaPython className="skill-icon python" />, name: "Python" },
-    { icon: <SiMongodb className="skill-icon mongodb" />, name: "MongoDb" },
     { icon: <FaGithub className="skill-icon github" />, name: "GitHub" },
     { icon: <FaGit className="skill-icon git" />, name: "Git" },
-    { icon: <SiPostman className="skill-icon postman" />, name: "Postman" },
-    { icon: <SiGooglesheets className="skill-icon google-sheets" />, name: "Google Sheets" },
     // { icon: <SiCplusplus className="skill-icon cpp" />, name: "C++" },
     // { icon: <FaHtml5 className="skill-icon html" />, name: "HTML" },
     // { icon: <FaCss3Alt className="skill-icon css" />, name: "CSS" },
